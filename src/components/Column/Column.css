@@ -1,0 +1,50 @@
+.kanban-column {
+    background-color: #f9fafb;
+    border-radius: 8px;
+    width: 280px;
+    padding: 10px;
+}
+
+.column-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.column-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.in-progress {
+    color: orange;
+}
+
+.done {
+    color: green;
+}
+
+.canceled {
+    color: gray;
+}
+
+.card-count {
+    background-color: #e5e7eb;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.add-card-btn {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

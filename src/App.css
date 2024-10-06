@@ -1,0 +1,319 @@
+.task-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.task-id {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background-color: #e5e7eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.task-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.task-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon-container {
+  background-color: #e5e7eb;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-tag {
+  background-color: #e5e7eb;
+  color: #4b5563;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.kanban-column {
+  background-color: #f9fafb;
+  border-radius: 8px;
+  width: 280px;
+  padding: 10px;
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.column-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.in-progress {
+  color: orange;
+}
+
+.done {
+  color: green;
+}
+
+.canceled {
+  color: gray;
+}
+
+.card-count {
+  background-color: #e5e7eb;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.add-card-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kanban-board {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  padding: 20px;
+}
+
+.board-header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.display-dropdown,
+.grouping-dropdown,
+.ordering-dropdown {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-arrow {
+  font-size: 12px;
+}
+
+.board-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.kanban-column {
+  background-color: #f9fafb;
+  border-radius: 8px;
+  width: 280px;
+  padding: 10px;
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.column-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.in-progress {
+  color: orange;
+}
+
+.done {
+  color: green;
+}
+
+.canceled {
+  color: gray;
+}
+
+.card-count {
+  background-color: #e5e7eb;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.add-card-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kanban-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.card-id {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+  background-color: #e5e7eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ellipsis {
+  color: #6b7280;
+}
+
+.feature-tag {
+  background-color: #e5e7eb;
+  color: #4b5563;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+
+
+.priority-icon,
+.status-icon {
+  margin-right: 5px;
+}
+
+.priority-icon.urgent {
+  color: #dc2626;
+}
+
+.priority-icon.high {
+  color: #ea580c;
+}
+
+.priority-icon.medium {
+  color: #ca8a04;
+}
+
+.priority-icon.low {
+  color: #2563eb;
+}
+
+.status-icon.in-progress {
+  color: #ca8a04;
+}
+
+.status-icon.done {
+  color: #16a34a;
+}
+
+.status-icon.canceled {
+  color: #6b7280;
+}
+
+select {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 2px 5px;
+}
+
+/* ... (previous styles) ... */
+.avatar {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-color: #e5e7eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.availability-indicator {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.available {
+  background-color: #16a34a;
+}
+
+.unavailable {
+  background-color: #dc2626;
+}
